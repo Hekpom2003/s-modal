@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel='stylesheet' href='dist/style.css'>
+</head>
+
+<body>
+<h1> <%= htmlWebpackPlugin.options.myPageHeader %> </h1>
+
+
+
+<button class="button" id="button">Открыть модальное окно</button>
+
+<div id="modalContext" style="display: none;">
+    <h2>This modal context</h2>
+    <script>console.log('test script in consolel');</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <ul>
+        <li>Enter sendmen</li>
+        <li>master of puppets</li>
+    </ul>
+</div>
+
+</body>
+</html>
